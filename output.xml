@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.7 on win32)" generated="20230217 10:27:09.372" rpa="false" schemaversion="3">
+<suite id="s1" name="ForLoop" source="c:\Users\dell\Desktop\Revision_Robotframework\TestCases\ForLoop.robot">
+<test id="s1-t1" name="boucle for5" line="32">
+<for flavor="IN">
+<var>${element}</var>
+<value>@{ma_liste2}</value>
+<iter>
+<var name="${element}">samedi</var>
+<kw name="Log" library="BuiltIn">
+<arg>${element}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230217 10:27:09.472" level="INFO">samedi</msg>
+<status status="PASS" starttime="20230217 10:27:09.471" endtime="20230217 10:27:09.477"/>
+</kw>
+<if>
+<branch type="IF" condition="'${element}'=='samedi'">
+<break>
+<status status="PASS" starttime="20230217 10:27:09.486" endtime="20230217 10:27:09.487"/>
+</break>
+<status status="PASS" starttime="20230217 10:27:09.485" endtime="20230217 10:27:09.487"/>
+</branch>
+<status status="PASS" starttime="20230217 10:27:09.478" endtime="20230217 10:27:09.487"/>
+</if>
+<status status="PASS" starttime="20230217 10:27:09.471" endtime="20230217 10:27:09.487"/>
+</iter>
+<status status="PASS" starttime="20230217 10:27:09.468" endtime="20230217 10:27:09.488"/>
+</for>
+<status status="PASS" starttime="20230217 10:27:09.463" endtime="20230217 10:27:09.489"/>
+</test>
+<status status="PASS" starttime="20230217 10:27:09.382" endtime="20230217 10:27:09.494"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="ForLoop">ForLoop</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
